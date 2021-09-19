@@ -1,0 +1,32 @@
+
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/6146db6f511317f1e64b6a3f
+
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+  
+{ 
+
+	"email": "123@123",
+	"name": "Jonnuy",
+	"password": "123",
+	"university": "NCTU"
+}
+
+###
+
+DELETE http://localhost:5000/users/6146d1118ba1620793c840ac
+
+###
+PATCH  http://localhost:5000/users/6146d93dc773eff50429e149
+Content-Type: application/json
+  
+{ 
+
+	"name": "Jooooonnuy"
+	
+}
